@@ -14,7 +14,9 @@ def main():
         print('3- Withdraw')
         print('4- Exit')
 
-        # print(f'Balance, Deposit, Withdraw, Exit',  sep=",")
+        print('****************************************************************')
+        print('1) Balance', ' 2) Deposit', ' 3) Withdraw', ' 4) Exit',  sep="      ")
+        print('****************************************************************')
         
 
         choice = input('Enter your choice (1 - 4): ')
