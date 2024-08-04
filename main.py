@@ -8,13 +8,11 @@ def main():
     while is_running:
         
         print('***************************')
-        print("Welcome to xx Bank {user}\n How can we help you today? ")
-        print('1- Balance')
-        print('2- Deposit')
-        print('3- Withdraw')
-        print('4- Exit')
+        print("Welcome to xx Bank {user}\nHow can we help you today? ")
 
-        # print(f'Balance, Deposit, Withdraw, Exit',  sep=",")
+        print('****************************************************************')
+        print('1) Balance', ' 2) Deposit', ' 3) Withdraw', ' 4) Exit',  sep="      ")
+        print('****************************************************************')
         
 
         choice = input('Enter your choice (1 - 4): ')
