@@ -11,7 +11,7 @@ def main():
         print("Welcome to xx Bank {user}\nHow can we help you today? ")
 
         print('*' *70)
-        print('1) Balance', ' 2) Deposit', ' 3) Withdraw', ' 4) Exit',  sep="      ")
+        print('1) Balance', ' 2) Deposit', ' 3) Withdraw', ' 4) Exit',  sep= " ")
         print('*' * 70)
         
 
